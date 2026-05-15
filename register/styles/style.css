@@ -1,3 +1,28 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px 16px;   /* меньше снизу */
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 8px 16px;          /* было 20px */
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: var(--faint);
+  letter-spacing: 0.12em;
+  opacity: 0.6;
+  position: relative;
+  z-index: 1;
+  line-height: 1;
+}
+
 /* ── Background layers ──────────────────────── */
 .bg-img {
   position: fixed;
@@ -99,7 +124,6 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 14px;
-
 }
 
 .logo-title {
@@ -280,7 +304,6 @@
   cursor: pointer;
   margin-bottom: 22px;
 }
-
 
 .check-box {
   width: 18px;
@@ -492,7 +515,7 @@
 }
 
 /* ── Footer ─────────────────────────────────── */
-.footer {
+footer {
   text-align: center;
   margin-top: 20px;
   font-size: 0.65rem;
